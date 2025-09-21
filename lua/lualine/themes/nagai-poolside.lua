@@ -15,7 +15,7 @@ M.normal = {
 }
 
 M.insert = {
-  a = { bg = C.magenta, fg = C.bg_dark, gui = "bold" },
+  a = { bg = C.bright_cyan, fg = C.bg_dark, gui = "bold" },
   b = { bg = surface, fg = fg },
   c = { bg = surface, fg = fg },
 }

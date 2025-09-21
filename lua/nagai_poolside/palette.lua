@@ -14,6 +14,7 @@ local C = {
   blue        = "#45A1DF",
   teal        = "#5EC2D6",
   cyan        = "#3A9FB7",
+  bright_cyan = "#7AD9E9",
   magenta     = "#58AFD8",
   green       = "#7CA348",
   yellow      = "#EED59A",

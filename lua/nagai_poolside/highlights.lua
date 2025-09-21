@@ -177,14 +177,14 @@ function M.apply(opts)
 
   -- Mini.nvim statusline mode colors
   hi("MiniStatuslineModeNormal", { fg = C.bg_dark, bg = C.blue, bold = true })
-  hi("MiniStatuslineModeInsert", { fg = C.bg_dark, bg = C.magenta, bold = true })
+  hi("MiniStatuslineModeInsert", { fg = C.bg_dark, bg = C.bright_cyan, bold = true })
   hi("MiniStatuslineModeVisual", { fg = C.bg_dark, bg = C.green, bold = true })
   hi("MiniStatuslineModeReplace", { fg = C.bg_dark, bg = C.red, bold = true })
   hi("MiniStatuslineModeCommand", { fg = C.bg_dark, bg = C.yellow, bold = true })
 
   -- Lualine groups (fallback when lualine theme not used)
   hi("lualine_a_normal", { fg = C.bg_dark, bg = C.blue, bold = true })
-  hi("lualine_a_insert", { fg = C.bg_dark, bg = C.magenta, bold = true })
+  hi("lualine_a_insert", { fg = C.bg_dark, bg = C.bright_cyan, bold = true })
   hi("lualine_a_visual", { fg = C.bg_dark, bg = C.green, bold = true })
   hi("lualine_a_replace", { fg = C.bg_dark, bg = C.red, bold = true })
   hi("lualine_a_command", { fg = C.bg_dark, bg = C.yellow, bold = true })
